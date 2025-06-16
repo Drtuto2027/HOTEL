@@ -5,11 +5,11 @@ from vistas.informe_vista import InformeVista
 
 class AdminVista(tk.Toplevel):
     def __init__(self, admin_controlador, on_logout):
-        super().__init__()
-        self.title("Panel Administrador")
-        self.geometry("600x400")
-        self.admin_controlador = admin_controlador
-        self.on_logout = on_logout
+        #super().__init__()
+        #self.title("Panel Administrador")
+        #self.geometry("600x400")
+        #self.admin_controlador = admin_controlador
+        #self.on_logout = on_logout
 
         # Intentar cargar el icono
         try:
