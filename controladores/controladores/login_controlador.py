@@ -12,6 +12,6 @@ class LoginControlador:
                 return Administrador(usuario.cedula, usuario.nombre, usuario.apellido, usuario.telefono, usuario.email, usuario.contraseña)
             elif usuario.rol == "Recepcionista":
                 return Recepcionista(usuario.cedula, usuario.nombre, usuario.apellido, usuario.telefono, usuario.email, usuario.contraseña)
-            elif usuario.rol == "cliente":
+            elif usuario.rol == "Cliente":
                 return Cliente(usuario.cedula, usuario.nombre, usuario.apellido, usuario.telefono, usuario.email, usuario.contraseña)
         return None

@@ -25,7 +25,7 @@ class ClienteControlador:
 
     def obtener_estado_reserva(self, reserva_id):
         reserva = Reserva.buscar_por_id(reserva_id)
-        return reserva.estado if reserva else "desconocido"
+        return reserva.estado if reserva else "No se encuentra"
 
     def pagar_factura(self, factura_id, reserva_id):
         reserva = Reserva.buscar_por_id(reserva_id)
