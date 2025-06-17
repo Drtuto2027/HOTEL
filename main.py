@@ -37,5 +37,3 @@ def main():
     login_vista = LoginVista(login_controlador, on_login_success)
     login_vista.mainloop()
 
-if __name__ == "__main__":
-    main()
